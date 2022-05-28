@@ -1,0 +1,25 @@
+.btn{
+    background:black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+ 
+}
+
+.btn:hover{
+    opacity: 0.8;
+    padding: 20px 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover{
+    color: orangered;
+    text-decoration: underline;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="borders.css">
+    <link rel="stylesheet" href="box_model.css">
+    <link rel="stylesheet" href="links_btn.css">
+    <link rel="stylesheet" href="table.css">
+    
+    <style>
+@media(max-width:500px){
+    .box{
+        font-size: 10px;
+        text-align: center;
+    }
+   
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="containers">
+    <div class="info">
+    <img src="1.jpg" alt="" width="200" class="avatar">
+    <div class="info-text">
+    <h1>Владимир Кульнев</h1>
+    <p>Я студент онлайн школы программирования Владилена Минина <strong>ResulSchool.</strong></p>
+    <p>Я люблю <em>путешесвовать, заниматься спортом и программировать. </em></p>
+    <h4>Список моих социальных сетей</h4>
+    <a href="https://vk.com/kulnev2021" target="_blank">Вконтакте</a>
+    <a href="https://www.google.com/" target="_blank">Google</a>
+    <a href="https://yandex.ru/?clid=2434209&win=536" target="_blank">Яндекс</a>
+</div>
+</div>
+<div class="card bg-yellow">
+    <h2>Мои хобби</h2>
+    <ol class="list">
+        <li>Спорт</li>
+        <li>Английский</li>
+        <li>Чтение книг</li>
+        <li>Программирование</li>
+        <li>Дизайн</li>
+    </ol>
+</div>
+<div class="card bg-green" >
+    <h2>Опыт работы</h2>
+    <table class="table">
+        <!-- <thead>
+<tr>
+    <th>Название </th>
+    <th>Должность </th>
+    <th>Год</th>
+</tr>
+        </thead> -->
+        <tbody>
+<tr>
+    <td>ВУНЦ</td>
+    <td>Курсант</td>
+    <td>2015-2020</td>
+</tr>
+
+<tr>
+    <td>Гос.служба</td>
+    <td>Преподаватель</td>
+    <td>2020-сейчас</td>
+</tr>
+        </tbody>
+    </table>
+</div>
+   
+    <form class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-row">
+        <div class="form-group">
+<label for=""> Ваше имя</label>
+<input type="text" placeholder="Введите имя">
+</div>
+<div class="form-group">
+<label for="email"> Ваш email</label>
+<input type="email" placeholder="Введите email">
+</div>
+</div>
+<div class="form-group">
+<label for="message">Ваше сообщение</label>
+<br>
+<textarea name="" id="" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
+</div>
+
+<input type="submit" value="Отправить!" class="btn">
+    
+</div>
+</form>
+</body>
+</html>

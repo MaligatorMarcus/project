@@ -1,0 +1,16 @@
+.card{
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.bg-yellow{
+    background: lightyellow;
+}
+
+
+
+.bg-green{
+    background: rgb(170, 237, 185);
+}
